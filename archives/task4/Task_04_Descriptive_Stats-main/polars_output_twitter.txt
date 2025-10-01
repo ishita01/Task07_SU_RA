@@ -1,0 +1,58 @@
+=== Column Types ===
+id: String
+url: String
+source: String
+retweetCount: Int64
+replyCount: Int64
+likeCount: Int64
+quoteCount: Int64
+viewCount: Int64
+createdAt: String
+lang: String
+bookmarkCount: Int64
+isReply: Boolean
+isRetweet: Boolean
+isQuote: Boolean
+isConversationControlled: Boolean
+quoteId: Float64
+inReplyToId: Float64
+month_year: String
+illuminating_scored_message: String
+election_integrity_Truth_illuminating: Float64
+advocacy_msg_type_illuminating: Float64
+issue_msg_type_illuminating: Float64
+attack_msg_type_illuminating: Float64
+image_msg_type_illuminating: Float64
+cta_msg_type_illuminating: Float64
+engagement_cta_subtype_illuminating: Float64
+fundraising_cta_subtype_illuminating: Float64
+voting_cta_subtype_illuminating: Float64
+covid_topic_illuminating: Float64
+economy_topic_illuminating: Float64
+education_topic_illuminating: Float64
+environment_topic_illuminating: Float64
+foreign_policy_topic_illuminating: Float64
+governance_topic_illuminating: Float64
+health_topic_illuminating: Float64
+immigration_topic_illuminating: Float64
+lgbtq_issues_topic_illuminating: Float64
+military_topic_illuminating: Float64
+race_and_ethnicity_topic_illuminating: Float64
+safety_topic_illuminating: Float64
+social_and_cultural_topic_illuminating: Float64
+technology_and_privacy_topic_illuminating: Float64
+womens_issue_topic_illuminating: Float64
+incivility_illuminating: Float64
+scam_illuminating: Float64
+freefair_illuminating: Int64
+fraud_illuminating: Int64
+
+
+=== Basic Descriptive Stats ===
+   retweetCount_mean  replyCount_mean  likeCount_mean  quoteCount_mean  viewCount_mean  bookmarkCount_mean  quoteId_mean  inReplyToId_mean  election_integrity_Truth_illuminating_mean  advocacy_msg_type_illuminating_mean  issue_msg_type_illuminating_mean  attack_msg_type_illuminating_mean  image_msg_type_illuminating_mean  cta_msg_type_illuminating_mean  engagement_cta_subtype_illuminating_mean  fundraising_cta_subtype_illuminating_mean  voting_cta_subtype_illuminating_mean  covid_topic_illuminating_mean  economy_topic_illuminating_mean  education_topic_illuminating_mean  environment_topic_illuminating_mean  foreign_policy_topic_illuminating_mean  governance_topic_illuminating_mean  health_topic_illuminating_mean  immigration_topic_illuminating_mean  lgbtq_issues_topic_illuminating_mean  military_topic_illuminating_mean  race_and_ethnicity_topic_illuminating_mean  safety_topic_illuminating_mean  social_and_cultural_topic_illuminating_mean  technology_and_privacy_topic_illuminating_mean  womens_issue_topic_illuminating_mean  incivility_illuminating_mean  scam_illuminating_mean  freefair_illuminating_mean  fraud_illuminating_mean  retweetCount_std  replyCount_std  likeCount_std  quoteCount_std  viewCount_std  bookmarkCount_std   quoteId_std  inReplyToId_std  election_integrity_Truth_illuminating_std  advocacy_msg_type_illuminating_std  issue_msg_type_illuminating_std  attack_msg_type_illuminating_std  image_msg_type_illuminating_std  cta_msg_type_illuminating_std  engagement_cta_subtype_illuminating_std  fundraising_cta_subtype_illuminating_std  voting_cta_subtype_illuminating_std  covid_topic_illuminating_std  economy_topic_illuminating_std  education_topic_illuminating_std  environment_topic_illuminating_std  foreign_policy_topic_illuminating_std  governance_topic_illuminating_std  health_topic_illuminating_std  immigration_topic_illuminating_std  lgbtq_issues_topic_illuminating_std  military_topic_illuminating_std  race_and_ethnicity_topic_illuminating_std  safety_topic_illuminating_std  social_and_cultural_topic_illuminating_std  technology_and_privacy_topic_illuminating_std  womens_issue_topic_illuminating_std  incivility_illuminating_std  scam_illuminating_std  freefair_illuminating_std  fraud_illuminating_std  retweetCount_min  replyCount_min  likeCount_min  quoteCount_min  viewCount_min  bookmarkCount_min   quoteId_min  inReplyToId_min  election_integrity_Truth_illuminating_min  advocacy_msg_type_illuminating_min  issue_msg_type_illuminating_min  attack_msg_type_illuminating_min  image_msg_type_illuminating_min  cta_msg_type_illuminating_min  engagement_cta_subtype_illuminating_min  fundraising_cta_subtype_illuminating_min  voting_cta_subtype_illuminating_min  covid_topic_illuminating_min  economy_topic_illuminating_min  education_topic_illuminating_min  environment_topic_illuminating_min  foreign_policy_topic_illuminating_min  governance_topic_illuminating_min  health_topic_illuminating_min  immigration_topic_illuminating_min  lgbtq_issues_topic_illuminating_min  military_topic_illuminating_min  race_and_ethnicity_topic_illuminating_min  safety_topic_illuminating_min  social_and_cultural_topic_illuminating_min  technology_and_privacy_topic_illuminating_min  womens_issue_topic_illuminating_min  incivility_illuminating_min  scam_illuminating_min  freefair_illuminating_min  fraud_illuminating_min  retweetCount_max  replyCount_max  likeCount_max  quoteCount_max  viewCount_max  bookmarkCount_max   quoteId_max  inReplyToId_max  election_integrity_Truth_illuminating_max  advocacy_msg_type_illuminating_max  issue_msg_type_illuminating_max  attack_msg_type_illuminating_max  image_msg_type_illuminating_max  cta_msg_type_illuminating_max  engagement_cta_subtype_illuminating_max  fundraising_cta_subtype_illuminating_max  voting_cta_subtype_illuminating_max  covid_topic_illuminating_max  economy_topic_illuminating_max  education_topic_illuminating_max  environment_topic_illuminating_max  foreign_policy_topic_illuminating_max  governance_topic_illuminating_max  health_topic_illuminating_max  immigration_topic_illuminating_max  lgbtq_issues_topic_illuminating_max  military_topic_illuminating_max  race_and_ethnicity_topic_illuminating_max  safety_topic_illuminating_max  social_and_cultural_topic_illuminating_max  technology_and_privacy_topic_illuminating_max  womens_issue_topic_illuminating_max  incivility_illuminating_max  scam_illuminating_max  freefair_illuminating_max  fraud_illuminating_max
+0        1322.055193      1063.785013     6913.692829       128.081563   507084.731834          136.213522  1.764298e+18      1.758286e+18                                    0.037144                             0.563686                          0.507682                           0.307598                          0.226435                        0.109664                                  0.066912                                   0.007874                              0.016786                       0.007605                         0.160214                           0.018437                              0.02854                                0.042252                             0.02297                        0.055658                             0.065299                              0.003073                          0.010986                                    0.015403                        0.037605                                     0.051971                                        0.002036                              0.023316                      0.178574                0.012368                    0.001428                 0.002747        3405.00424     3174.981654   21590.307989     1131.533468   3.212174e+06         712.580294  6.894687e+16     4.361197e+16                                   0.189118                            0.495937                         0.499951                          0.461508                         0.418532                       0.312477                                 0.249875                                  0.088389                              0.12847                      0.086879                        0.366811                          0.134529                            0.166512                               0.201168                           0.149811                       0.229264                            0.247058                              0.05535                         0.104237                                   0.123151                       0.190242                                    0.221972                                       0.045075                             0.150907                     0.383003               0.110526                   0.037767                0.052339                 0               0              0               0              5                  0  7.912639e+17     1.240067e+18                                        0.0                                 0.0                              0.0                               0.0                              0.0                            0.0                                      0.0                                       0.0                                  0.0                           0.0                             0.0                               0.0                                 0.0                                    0.0                                0.0                            0.0                                 0.0                                  0.0                              0.0                                        0.0                            0.0                                         0.0                                            0.0                                  0.0                          0.0                    0.0                          0                       0            144615          121270         915221          123320      333502775              42693  1.853576e+18     1.853531e+18                                        1.0                                 1.0                              1.0                               1.0                              1.0                            1.0                                      1.0                                       1.0                                  1.0                           1.0                             1.0                               1.0                                 1.0                                    1.0                                1.0                            1.0                                 1.0                                  1.0                              1.0                                        1.0                            1.0                                         1.0                                            1.0                                  1.0                          1.0                    1.0                          1                       1
+
+
+Column 'account_type' not found — skipping.
+
+Missing 'account_id' or 'post_id' — skipping group.

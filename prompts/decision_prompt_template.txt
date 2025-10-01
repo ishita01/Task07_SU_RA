@@ -1,0 +1,15 @@
+Role: Senior Data Analyst at an automotive marketplace.
+Task: Using the validated stats below, propose tiered recommendations (Operational, Investigatory, High-stakes). Include explicit uncertainty. Do not assert causality.
+
+Validated stats:
+- Global mean price: 14,716,258.95 (units as recorded).
+- EV – Petrol (trimmed at 99th pct): estimate = -40,884.822; 95% CI = [-63,425.578, -21,228.378]; ~ -0.28% of global mean.
+- Untrimmed gap is negative but with a very wide CI; high outlier sensitivity.
+- Subgroup counts are uneven across (Company, Fuel).
+
+Output format: 
+            1) Executive one-liner, 
+            2) Tiered recommendations with metrics to monitor, 
+            3) Risks/mitigations, 
+            4) Dependencies, 
+            5) Exactly where uncertainty could flip the decision.

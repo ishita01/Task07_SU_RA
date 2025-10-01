@@ -1,0 +1,67 @@
+=== Column Types ===
+Facebook_Id: String
+post_id: String
+Page Category: String
+Page Admin Top Country: String
+Post Created: String
+Post Created Date: String
+Post Created Time: String
+Type: String
+Total Interactions: Float64
+Likes: Int64
+Comments: Int64
+Shares: Int64
+Love: Int64
+Wow: Int64
+Haha: Int64
+Sad: Int64
+Angry: Int64
+Care: Int64
+Video Share Status: String
+Is Video Owner?: String
+Post Views: Float64
+Total Views: Float64
+Total Views For All Crossposts: Float64
+Video Length: String
+Sponsor Id: Float64
+Sponsor Name: Float64
+Sponsor Category: Float64
+Overperforming Score: Float64
+illuminating_scored_messageelection_integrity_Truth_illuminating: Float64
+advocacy_msg_type_illuminating: Int64
+issue_msg_type_illuminating: Int64
+attack_msg_type_illuminating: Int64
+image_msg_type_illuminating: Int64
+cta_msg_type_illuminating: Int64
+engagement_cta_subtype_illuminating: Int64
+fundraising_cta_subtype_illuminating: Int64
+voting_cta_subtype_illuminating: Int64
+covid_topic_illuminating: Int64
+economy_topic_illuminating: Int64
+education_topic_illuminating: Int64
+environment_topic_illuminating: Int64
+foreign_policy_topic_illuminating: Int64
+governance_topic_illuminating: Int64
+health_topic_illuminating: Int64
+immigration_topic_illuminating: Int64
+lgbtq_issues_topic_illuminating: Int64
+military_topic_illuminating: Int64
+race_and_ethnicity_topic_illuminating: Int64
+safety_topic_illuminating: Int64
+social_and_cultural_topic_illuminating: Int64
+technology_and_privacy_topic_illuminating: Int64
+womens_issue_topic_illuminating: Int64
+incivility_illuminating: Int64
+scam_illuminating: Float64
+freefair_illuminating: Int64
+fraud_illuminating: Int64
+
+
+=== Basic Descriptive Stats ===
+   Total Interactions_mean   Likes_mean  Comments_mean  Shares_mean   Love_mean  Wow_mean   Haha_mean   Sad_mean  Angry_mean  Care_mean  Post Views_mean  Total Views_mean  Total Views For All Crossposts_mean  Sponsor Id_mean  Sponsor Name_mean  Sponsor Category_mean  Overperforming Score_mean  illuminating_scored_messageelection_integrity_Truth_illuminating_mean  advocacy_msg_type_illuminating_mean  issue_msg_type_illuminating_mean  attack_msg_type_illuminating_mean  image_msg_type_illuminating_mean  cta_msg_type_illuminating_mean  engagement_cta_subtype_illuminating_mean  fundraising_cta_subtype_illuminating_mean  voting_cta_subtype_illuminating_mean  covid_topic_illuminating_mean  economy_topic_illuminating_mean  education_topic_illuminating_mean  environment_topic_illuminating_mean  foreign_policy_topic_illuminating_mean  governance_topic_illuminating_mean  health_topic_illuminating_mean  immigration_topic_illuminating_mean  lgbtq_issues_topic_illuminating_mean  military_topic_illuminating_mean  race_and_ethnicity_topic_illuminating_mean  safety_topic_illuminating_mean  social_and_cultural_topic_illuminating_mean  technology_and_privacy_topic_illuminating_mean  womens_issue_topic_illuminating_mean  incivility_illuminating_mean  scam_illuminating_mean  freefair_illuminating_mean  fraud_illuminating_mean  Total Interactions_std     Likes_std  Comments_std   Shares_std    Love_std    Wow_std    Haha_std     Sad_std   Angry_std    Care_std  Post Views_std  Total Views_std  Total Views For All Crossposts_std  Sponsor Id_std  Sponsor Name_std  Sponsor Category_std  Overperforming Score_std  illuminating_scored_messageelection_integrity_Truth_illuminating_std  advocacy_msg_type_illuminating_std  issue_msg_type_illuminating_std  attack_msg_type_illuminating_std  image_msg_type_illuminating_std  cta_msg_type_illuminating_std  engagement_cta_subtype_illuminating_std  fundraising_cta_subtype_illuminating_std  voting_cta_subtype_illuminating_std  covid_topic_illuminating_std  economy_topic_illuminating_std  education_topic_illuminating_std  environment_topic_illuminating_std  foreign_policy_topic_illuminating_std  governance_topic_illuminating_std  health_topic_illuminating_std  immigration_topic_illuminating_std  lgbtq_issues_topic_illuminating_std  military_topic_illuminating_std  race_and_ethnicity_topic_illuminating_std  safety_topic_illuminating_std  social_and_cultural_topic_illuminating_std  technology_and_privacy_topic_illuminating_std  womens_issue_topic_illuminating_std  incivility_illuminating_std  scam_illuminating_std  freefair_illuminating_std  fraud_illuminating_std  Total Interactions_min  Likes_min  Comments_min  Shares_min  Love_min  Wow_min  Haha_min  Sad_min  Angry_min  Care_min  Post Views_min  Total Views_min  Total Views For All Crossposts_min  Sponsor Id_min  Sponsor Name_min  Sponsor Category_min  Overperforming Score_min  illuminating_scored_messageelection_integrity_Truth_illuminating_min  advocacy_msg_type_illuminating_min  issue_msg_type_illuminating_min  attack_msg_type_illuminating_min  image_msg_type_illuminating_min  cta_msg_type_illuminating_min  engagement_cta_subtype_illuminating_min  fundraising_cta_subtype_illuminating_min  voting_cta_subtype_illuminating_min  covid_topic_illuminating_min  economy_topic_illuminating_min  education_topic_illuminating_min  environment_topic_illuminating_min  foreign_policy_topic_illuminating_min  governance_topic_illuminating_min  health_topic_illuminating_min  immigration_topic_illuminating_min  lgbtq_issues_topic_illuminating_min  military_topic_illuminating_min  race_and_ethnicity_topic_illuminating_min  safety_topic_illuminating_min  social_and_cultural_topic_illuminating_min  technology_and_privacy_topic_illuminating_min  womens_issue_topic_illuminating_min  incivility_illuminating_min  scam_illuminating_min  freefair_illuminating_min  fraud_illuminating_min  Total Interactions_max  Likes_max  Comments_max  Shares_max  Love_max  Wow_max  Haha_max  Sad_max  Angry_max  Care_max  Post Views_max  Total Views_max  Total Views For All Crossposts_max  Sponsor Id_max  Sponsor Name_max  Sponsor Category_max  Overperforming Score_max  illuminating_scored_messageelection_integrity_Truth_illuminating_max  advocacy_msg_type_illuminating_max  issue_msg_type_illuminating_max  attack_msg_type_illuminating_max  image_msg_type_illuminating_max  cta_msg_type_illuminating_max  engagement_cta_subtype_illuminating_max  fundraising_cta_subtype_illuminating_max  voting_cta_subtype_illuminating_max  covid_topic_illuminating_max  economy_topic_illuminating_max  education_topic_illuminating_max  environment_topic_illuminating_max  foreign_policy_topic_illuminating_max  governance_topic_illuminating_max  health_topic_illuminating_max  immigration_topic_illuminating_max  lgbtq_issues_topic_illuminating_max  military_topic_illuminating_max  race_and_ethnicity_topic_illuminating_max  safety_topic_illuminating_max  social_and_cultural_topic_illuminating_max  technology_and_privacy_topic_illuminating_max  womens_issue_topic_illuminating_max  incivility_illuminating_max  scam_illuminating_max  freefair_illuminating_max  fraud_illuminating_max
+0              4190.439634  2377.695407     901.583197   320.538955  413.877321  5.868326  105.719712  10.172182     20.0555  34.929034      6485.058511       7461.847014                          3555.937984              NaN                NaN                    NaN                   -2.74416                                                                    NaN                             0.549266                          0.460308                           0.216687                          0.148561                        0.132832                                  0.090852                                   0.018412                               0.02341                       0.052396                         0.090378                           0.014993                             0.022253                                0.036877                            0.031091                        0.048661                             0.040823                              0.003367                          0.005576                                    0.021569                        0.032195                                     0.061708                                        0.002052                              0.025462                      0.127887                 0.02021                    0.002841                 0.008627            19003.080332  11253.469669   3681.980096  1722.159879  3730.94045  52.946979  942.034248  418.325007  156.020089  790.103213    90392.958445     95976.278848                        88094.048319             NaN               NaN                   NaN                  7.808477                                                                   NaN                             0.49758                         0.498435                          0.411998                         0.355665                       0.339402                                 0.287406                                  0.134441                             0.151206                      0.222831                         0.28673                          0.121527                            0.147508                               0.188465                           0.173567                       0.215164                            0.197885                             0.057928                         0.074468                                   0.145274                       0.176523                                     0.24063                                        0.04525                             0.157527                     0.333972               0.140723                   0.053224                0.092485                     0.0          0             0           0         0        0         0        0          0         0             0.0              0.0                                 0.0             NaN               NaN                   NaN                   -198.75                                                                   NaN                                   0                                0                                 0                                0                              0                                        0                                         0                                    0                             0                               0                                 0                                   0                                      0                                  0                              0                                   0                                    0                                0                                          0                              0                                           0                                              0                                    0                            0                    0.0                          0                       0                696853.0     351979         93872       76150    244482     4345     99276    56111      11814     85236       4276477.0        4462155.0                           4499458.0             NaN               NaN                   NaN                    246.78                                                                   NaN                                   1                                1                                 1                                1                              1                                        1                                         1                                    1                             1                               1                                 1                                   1                                      1                                  1                              1                                   1                                    1                                1                                          1                              1                                           1                                              1                                    1                            1                    1.0                          1                       1
+
+
+Column 'account_type' not found — skipping group.
+
+Missing 'account_id' or 'post_id' — skipping group.

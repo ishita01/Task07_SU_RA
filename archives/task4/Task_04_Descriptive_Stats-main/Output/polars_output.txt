@@ -1,0 +1,32 @@
+=== Basic Descriptive Statistics ===
+   estimated_audience_size_mean  estimated_impressions_mean  estimated_spend_mean  estimated_audience_size_std  estimated_impressions_std  estimated_spend_std  estimated_audience_size_min  estimated_impressions_min  estimated_spend_min  estimated_audience_size_max  estimated_impressions_max  estimated_spend_max
+0                 556462.855969                45601.525952           1061.291434                409864.758823              136790.769901          4992.560749                            0                        499                   49                      1000001                    1000000               474999
+
+
+=== Grouped by page_id (Mean Only, First 10) ===
+                                                            page_id  estimated_audience_size_mean  estimated_impressions_mean  estimated_spend_mean
+0  9610f237db3af78b4d013033390513c04ba1e0fa6b92acf58cd867c833419d36                  6.922374e+05               125999.026316            814.789474
+1  e94c1c5db073f0394aaabf15ccc251022c5e36d4a92ea25b59c463a1d3bfc7a9                  5.037505e+05                 9999.000000             49.000000
+2  25f858daae95700eb47d8cda0b23ab1a8a7f8def8c5104807dfd57d811145a18                  1.000001e+06                37499.000000            249.000000
+3  5aafc47203492bda6b225abf2b08274e795c444c88936c3340111423c13bb85a                  3.000000e+05               270999.000000           6869.000000
+4  402f54e51a7d75ab11ea847b6a8925d0bdccdc6a6fc75a6e1ec6f2e158452a12                  3.000000e+04                32499.000000            399.000000
+5  98f7f0a554b1d076ee1ca36ed4ed49151b0c78b89218794db84a25372ff98525                  3.000000e+04                53999.000000           2339.000000
+6  c2e5781194de340d69c85d0fed46907f1b09bbdf3ad75e08cfe5c37762b42c35                  5.250000e+04               179999.000000           2099.000000
+7  09b2e8a321a21e868068f3819f328ee25fc2a2a0e47188810011fdede74560ce                  4.472778e+04                 8165.666667             93.444444
+8  03fc560b14533bf2bc882c7a965646c9efe8ee33a6fbb018df9d479bed824d02                  1.000001e+06               200579.020000           2153.000000
+9  7f1102757856e9407602f18ddfcce5036ff6ecb4a99a27d15e2c615cace3968e                  1.000001e+06                14165.666667            115.666667
+
+
+=== Grouped by page_id and ad_id (Mean Only, First 10) ===
+                                                            page_id                                                             ad_id  estimated_audience_size_mean  estimated_impressions_mean  estimated_spend_mean
+0  4ade404186269ec62d2dd7d9e0ed5f93a5f32c057516879d627ea9fbd628ef9b  1a75315a541f15fc2c523da895bc65492992f0c50e6870d1384d13526dd35cab                     1000001.0                     64999.0                 549.0
+1  330b2f35ded2161e63fbb2b5c5bdae05bff274ff31f990c275d28ce408671ce0  e7d1cdaedd42580ede332c4b2b0ac709e0d9aef674b34a5ccae1f84bbe078005                      300000.0                     17499.0                 249.0
+2  d3cf6c37e06de65313033583673158db19616ad1d6700ace8d8bf14ddbb4969f  ca1a30c2f6857991781d4442f484f5414768067a32381bdea32f4a93e32223e3                      300000.0                      3499.0                  49.0
+3  4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d  13404186a9e68d76d37d93892aaa013d49769038fe39f7d6a078730eb7db216f                       75000.0                       499.0                  49.0
+4  ab3bfe325cb2a17d78996827aecd5b7f82734e89b2e7aa6c813e21d90cc16cee  26d31dc0c1df18ae805a87270768c4fb3b5ed813b7fb7ee652c9e1cd944537f7                     1000001.0                       499.0                  49.0
+5  a16f584588bd5eab177bb3836062cb52d768d5acac878ae7ce168233d1a8f130  933aed4eec8de40e3700f69f4c9833d396e01ec4a475163974db7b398ed1a11d                     1000001.0                     22499.0                 249.0
+6  330b2f35ded2161e63fbb2b5c5bdae05bff274ff31f990c275d28ce408671ce0  79b10ae9df33edc087c654cca520bfa0de77164ef00b6222d1efb5df2f9a933d                       75000.0                       499.0                  49.0
+7  c5728dbf6f860c0fe9722cb42f5273ec659d701ebf68f3e1d7b63da7958297ee  813208707072b69bd0cbb05a2cbd2f4bec83dad179f2929f9dece3d8647f3427                     1000001.0                       499.0                  49.0
+8  4d66f5853f0365dba032a87704a634f023d15babde973bb7a284ed8cd2707b2d  a809fd110ca06eb003fa63cb836bfc125d0d0a0548a5bad3afd4852e3c8f8d5b                       30000.0                     42499.0                 449.0
+9  4ade404186269ec62d2dd7d9e0ed5f93a5f32c057516879d627ea9fbd628ef9b  510a9d2e239c586b0cecb90a90e5cc5d51699feb37251ca4d7cbc5ac316248e8                     1000001.0                      3499.0                  49.0
+

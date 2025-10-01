@@ -1,0 +1,111 @@
+=== Columns and Data Types ===
+
+page_id: object
+ad_id: object
+ad_creation_time: object
+bylines: object
+currency: object
+delivery_by_region: object
+demographic_distribution: object
+estimated_audience_size: int64
+estimated_impressions: int64
+estimated_spend: int64
+publisher_platforms: object
+illuminating_scored_message: object
+illuminating_mentions: object
+scam_illuminating: int64
+election_integrity_Truth_illuminating: int64
+advocacy_msg_type_illuminating: int64
+issue_msg_type_illuminating: int64
+attack_msg_type_illuminating: int64
+image_msg_type_illuminating: int64
+cta_msg_type_illuminating: int64
+engagement_cta_subtype_illuminating: int64
+fundraising_cta_subtype_illuminating: int64
+voting_cta_subtype_illuminating: int64
+covid_topic_illuminating: int64
+economy_topic_illuminating: int64
+education_topic_illuminating: int64
+environment_topic_illuminating: int64
+foreign_policy_topic_illuminating: int64
+governance_topic_illuminating: int64
+health_topic_illuminating: int64
+immigration_topic_illuminating: int64
+lgbtq_issues_topic_illuminating: int64
+military_topic_illuminating: int64
+race_and_ethnicity_topic_illuminating: int64
+safety_topic_illuminating: int64
+social_and_cultural_topic_illuminating: int64
+technology_and_privacy_topic_illuminating: int64
+womens_issue_topic_illuminating: int64
+incivility_illuminating: int64
+freefair_illuminating: int64
+fraud_illuminating: int64
+
+
+=== Basic Descriptive Stats ===
+
+       estimated_audience_size  estimated_impressions  estimated_spend
+count             2.467450e+05          246745.000000    246745.000000
+mean              5.564629e+05           45601.525952      1061.291434
+std               4.098648e+05          136790.769901      4992.560749
+min               0.000000e+00             499.000000        49.000000
+25%               7.500000e+04             499.000000        49.000000
+50%               3.000000e+05            3499.000000        49.000000
+75%               1.000001e+06           22499.000000       449.000000
+max               1.000001e+06         1000000.000000    474999.000000
+
+
+=== currency Summary ===
+
+Unique values: 18
+currency
+USD    246599
+INR        63
+GBP        17
+EUR        11
+EGP         8
+
+
+=== publisher_platforms Summary ===
+
+Unique values: 9
+publisher_platforms
+['facebook', 'instagram']                                     214434
+['facebook']                                                   23259
+['instagram']                                                   8395
+['facebook', 'instagram', 'audience_network', 'messenger']       459
+['facebook', 'instagram', 'audience_network']                     79
+
+
+=== Grouped by page_id (Mean Only, First 10) ===
+
+                                                                  estimated_audience_size  estimated_impressions  estimated_spend
+page_id                                                                                                                          
+0005687f4ac876c135dda2bd5aa60962eced3356228ef01c21c514d263a11128             5.250000e+03            3999.000000        49.000000
+00157b7e28846e0510e1d265c5ea72fea289d9a3e31a91bb3ed242d8b17f4cd8             1.268333e+04           32999.000000      1415.666667
+002415d34a27e69e6b9c0a2d1b0b8b99aacddf88c766ce1e8b897f69cbd3c928             3.000000e+05            1499.000000        49.000000
+002a7fde0f1b2e9116e80f42d7dfea04ccdd61308dc5cc84b53d4262fcc9a2f2             1.000001e+06           15249.000000        49.000000
+003acdd6c226d5c2fa272e55ad9a8d39a82e2b6c2ed504b599c923bc33b29b68             1.000001e+06             499.000000        49.000000
+0052e597646ada728a3321aa7a4dc98b9e3f0e2d4215de3b732311c296fd710c             7.500000e+04           84999.000000      1249.000000
+0054486b6689b350b5d20a4d78ac0fe5f8f82e083aa72d0287b6cba75c9b2b82             1.190171e+05          104166.682635      2141.814371
+0055a3ffa4db31eb7ab3042dc0603aa52c409aad815061a9cf63889f35c94440             1.000001e+06             999.000000        49.000000
+005b231946e0436490095ce46adb4043462c376fb24cf907ff0b59d378a7166e             3.964286e+04           18391.857143       199.000000
+005b7dcff35441472bbdf923c423936bf35cebc4a78547fdc6da426624002b13             5.500000e+02            4499.000000        49.000000
+
+
+=== Grouped by page_id and ad_id (Mean Only, First 10) ===
+
+                                                                                                                                   estimated_audience_size  estimated_impressions  estimated_spend
+page_id                                                          ad_id                                                                                                                            
+0005687f4ac876c135dda2bd5aa60962eced3356228ef01c21c514d263a11128 10913e6cae50d9aafe81b85c23f4ad11e24bde5d4f24643c14734a19a2733e5e                   7500.0                 5499.0             49.0
+                                                                 5ae5f50e059148a06b00ef785636346997d35ee843d2900fe795e60bc39a535f                   3000.0                 2499.0             49.0
+00157b7e28846e0510e1d265c5ea72fea289d9a3e31a91bb3ed242d8b17f4cd8 715ec14d254bf4e5b576e257e96f77967ef5c27604238eb4eac34d2f8467a10c                  30000.0                27499.0           1249.0
+                                                                 779bcd2014d6a7b8c522dbf28360ecfed261573da19523a7a92cb48f4310c941                   7500.0                64999.0           2749.0
+                                                                 a4a6f2f0accaf13372d8e9790de38774e2e2dfc07172c64656a45fd0d8d9b6dc                    550.0                 6499.0            249.0
+002415d34a27e69e6b9c0a2d1b0b8b99aacddf88c766ce1e8b897f69cbd3c928 6001578eecf31f7e5ca33146ecede00c7b10d26a824028f8a70675a537b6fc5a                 300000.0                 1499.0             49.0
+002a7fde0f1b2e9116e80f42d7dfea04ccdd61308dc5cc84b53d4262fcc9a2f2 3d764bf872d579b5c1c0de43fe21827c1a2ca52813054e8d63b1028606f8cdca                1000001.0                 3499.0             49.0
+                                                                 4221e13fe9aefa1aa86e900a73e510121da93e165ebc955890bd72bdb36c94e4                1000001.0                22499.0             49.0
+                                                                 4425da1303236fe461d2791e6934fc778d19840fce4ab83ff7ea5b5d18526f88                1000001.0                22499.0             49.0
+                                                                 cfad8965e38dfe53ce0d2587ad98b297b368994933e38afdfdc0d172516aa9bb                1000001.0                12499.0             49.0
+

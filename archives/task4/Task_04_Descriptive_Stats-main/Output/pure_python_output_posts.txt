@@ -1,0 +1,99 @@
+=== Overall Stats ===
+
+=== Group: all ===
+Facebook_Id | unique=21, top=[('32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064', 9013)]
+post_id | unique=19009, top=[('8570b69695e00d8f06b12398ed525497e1712b5369c6fc2138fe98f69811c138', 1)]
+Page Category | unique=6, top=[('PERSON', 9453)]
+Page Admin Top Country | unique=1, top=[('US', 16280)]
+Post Created | unique=18951, top=[('2023-11-14 11:11:44 EST', 2)]
+Post Created Date | unique=425, top=[('2024-10-31', 103)]
+Post Created Time | unique=16102, top=[('19:42:00', 7)]
+Type | unique=9, top=[('Link', 7404)]
+Total Interactions | count=19009, mean=4190.44, min=0.0, max=696853.0
+Total Interactions | std_dev=19003.08
+Likes | count=19009, mean=2377.7, min=0.0, max=351979.0
+Likes | std_dev=11253.47
+Comments | count=19009, mean=901.58, min=0.0, max=93872.0
+Comments | std_dev=3681.98
+Shares | count=19009, mean=320.54, min=0.0, max=76150.0
+Shares | std_dev=1722.16
+Love | count=19009, mean=413.88, min=0.0, max=244482.0
+Love | std_dev=3730.94
+Wow | count=19009, mean=5.87, min=0.0, max=4345.0
+Wow | std_dev=52.95
+Haha | count=19009, mean=105.72, min=0.0, max=99276.0
+Haha | std_dev=942.03
+Sad | count=19009, mean=10.17, min=0.0, max=56111.0
+Sad | std_dev=418.33
+Angry | count=19009, mean=20.06, min=0.0, max=11814.0
+Angry | std_dev=156.02
+Care | count=19009, mean=34.93, min=0.0, max=85236.0
+Care | std_dev=790.1
+Video Share Status | unique=3, top=[('owned', 3100)]
+Is Video Owner? | unique=3, top=[('-', 13280)]
+Post Views | count=16544, mean=6485.06, min=0.0, max=4276477.0
+Post Views | std_dev=90392.96
+Total Views | count=16544, mean=7461.85, min=0.0, max=4462155.0
+Total Views | std_dev=95976.28
+Total Views For All Crossposts | count=16544, mean=3555.94, min=0.0, max=4499458.0
+Total Views For All Crossposts | std_dev=88094.05
+Video Length | unique=774, top=[('00:00:30', 83)]
+Overperforming Score | count=16544, mean=-2.74, min=-198.75, max=246.78
+Overperforming Score | std_dev=7.81
+advocacy_msg_type_illuminating | count=19009, mean=0.55, min=0.0, max=1.0
+advocacy_msg_type_illuminating | std_dev=0.5
+issue_msg_type_illuminating | count=19009, mean=0.46, min=0.0, max=1.0
+issue_msg_type_illuminating | std_dev=0.5
+attack_msg_type_illuminating | count=19009, mean=0.22, min=0.0, max=1.0
+attack_msg_type_illuminating | std_dev=0.41
+image_msg_type_illuminating | count=19009, mean=0.15, min=0.0, max=1.0
+image_msg_type_illuminating | std_dev=0.36
+cta_msg_type_illuminating | count=19009, mean=0.13, min=0.0, max=1.0
+cta_msg_type_illuminating | std_dev=0.34
+engagement_cta_subtype_illuminating | count=19009, mean=0.09, min=0.0, max=1.0
+engagement_cta_subtype_illuminating | std_dev=0.29
+fundraising_cta_subtype_illuminating | count=19009, mean=0.02, min=0.0, max=1.0
+fundraising_cta_subtype_illuminating | std_dev=0.13
+voting_cta_subtype_illuminating | count=19009, mean=0.02, min=0.0, max=1.0
+voting_cta_subtype_illuminating | std_dev=0.15
+covid_topic_illuminating | count=19009, mean=0.05, min=0.0, max=1.0
+covid_topic_illuminating | std_dev=0.22
+economy_topic_illuminating | count=19009, mean=0.09, min=0.0, max=1.0
+economy_topic_illuminating | std_dev=0.29
+education_topic_illuminating | count=19009, mean=0.01, min=0.0, max=1.0
+education_topic_illuminating | std_dev=0.12
+environment_topic_illuminating | count=19009, mean=0.02, min=0.0, max=1.0
+environment_topic_illuminating | std_dev=0.15
+foreign_policy_topic_illuminating | count=19009, mean=0.04, min=0.0, max=1.0
+foreign_policy_topic_illuminating | std_dev=0.19
+governance_topic_illuminating | count=19009, mean=0.03, min=0.0, max=1.0
+governance_topic_illuminating | std_dev=0.17
+health_topic_illuminating | count=19009, mean=0.05, min=0.0, max=1.0
+health_topic_illuminating | std_dev=0.22
+immigration_topic_illuminating | count=19009, mean=0.04, min=0.0, max=1.0
+immigration_topic_illuminating | std_dev=0.2
+lgbtq_issues_topic_illuminating | count=19009, mean=0.0, min=0.0, max=1.0
+lgbtq_issues_topic_illuminating | std_dev=0.06
+military_topic_illuminating | count=19009, mean=0.01, min=0.0, max=1.0
+military_topic_illuminating | std_dev=0.07
+race_and_ethnicity_topic_illuminating | count=19009, mean=0.02, min=0.0, max=1.0
+race_and_ethnicity_topic_illuminating | std_dev=0.15
+safety_topic_illuminating | count=19009, mean=0.03, min=0.0, max=1.0
+safety_topic_illuminating | std_dev=0.18
+social_and_cultural_topic_illuminating | count=19009, mean=0.06, min=0.0, max=1.0
+social_and_cultural_topic_illuminating | std_dev=0.24
+technology_and_privacy_topic_illuminating | count=19009, mean=0.0, min=0.0, max=1.0
+technology_and_privacy_topic_illuminating | std_dev=0.05
+womens_issue_topic_illuminating | count=19009, mean=0.03, min=0.0, max=1.0
+womens_issue_topic_illuminating | std_dev=0.16
+incivility_illuminating | count=19009, mean=0.13, min=0.0, max=1.0
+incivility_illuminating | std_dev=0.33
+scam_illuminating | count=18060, mean=0.02, min=0.0, max=1.0
+scam_illuminating | std_dev=0.14
+freefair_illuminating | count=19009, mean=0.0, min=0.0, max=1.0
+freefair_illuminating | std_dev=0.05
+fraud_illuminating | count=19009, mean=0.01, min=0.0, max=1.0
+fraud_illuminating | std_dev=0.09
+Column 'account_type' not found — skipping.
+
+Missing 'account_id' or 'post_id' — skipping.

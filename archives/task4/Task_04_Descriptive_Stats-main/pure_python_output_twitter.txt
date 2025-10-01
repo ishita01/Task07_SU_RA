@@ -1,0 +1,89 @@
+=== Overall Stats ===
+
+=== Group: all ===
+id | unique=27304, top=[('cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d', 1)]
+url | unique=27304, top=[('f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937', 1)]
+source | unique=14, top=[('Twitter Web App', 14930)]
+retweetCount | count=27304, mean=1322.06, min=0.0, max=144615.0
+retweetCount | std_dev=3405.0
+replyCount | count=27304, mean=1063.79, min=0.0, max=121270.0
+replyCount | std_dev=3174.98
+likeCount | count=27304, mean=6913.69, min=0.0, max=915221.0
+likeCount | std_dev=21590.31
+quoteCount | count=27304, mean=128.08, min=0.0, max=123320.0
+quoteCount | std_dev=1131.53
+viewCount | count=27304, mean=507084.73, min=5.0, max=333502775.0
+viewCount | std_dev=3212173.99
+createdAt | unique=27014, top=[('2023-10-06 04:55:21', 4)]
+lang | unique=12, top=[('en', 27281)]
+bookmarkCount | count=27304, mean=136.21, min=0.0, max=42693.0
+bookmarkCount | std_dev=712.58
+isReply | unique=2, top=[('False', 23930)]
+isRetweet | unique=1, top=[('False', 27304)]
+isQuote | unique=2, top=[('False', 24064)]
+isConversationControlled | unique=2, top=[('False', 27296)]
+quoteId | count=3287, mean=1.7642983966589504e+18, min=7.912639390153769e+17, max=1.8535761683325583e+18
+quoteId | std_dev=6.894686649329474e+16
+inReplyToId | count=3345, mean=1.7582857247419999e+18, min=1.2400673584227e+18, max=1.853530653414859e+18
+inReplyToId | std_dev=4.36119657015607e+16
+month_year | unique=15, top=[('2024-10', 3586)]
+illuminating_scored_message | unique=27136, top=[('36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd', 21)]
+election_integrity_Truth_illuminating | count=26034, mean=0.04, min=0.0, max=1.0
+election_integrity_Truth_illuminating | std_dev=0.19
+advocacy_msg_type_illuminating | count=26034, mean=0.56, min=0.0, max=1.0
+advocacy_msg_type_illuminating | std_dev=0.5
+issue_msg_type_illuminating | count=26034, mean=0.51, min=0.0, max=1.0
+issue_msg_type_illuminating | std_dev=0.5
+attack_msg_type_illuminating | count=26034, mean=0.31, min=0.0, max=1.0
+attack_msg_type_illuminating | std_dev=0.46
+image_msg_type_illuminating | count=26034, mean=0.23, min=0.0, max=1.0
+image_msg_type_illuminating | std_dev=0.42
+cta_msg_type_illuminating | count=26034, mean=0.11, min=0.0, max=1.0
+cta_msg_type_illuminating | std_dev=0.31
+engagement_cta_subtype_illuminating | count=26034, mean=0.07, min=0.0, max=1.0
+engagement_cta_subtype_illuminating | std_dev=0.25
+fundraising_cta_subtype_illuminating | count=26034, mean=0.01, min=0.0, max=1.0
+fundraising_cta_subtype_illuminating | std_dev=0.09
+voting_cta_subtype_illuminating | count=26034, mean=0.02, min=0.0, max=1.0
+voting_cta_subtype_illuminating | std_dev=0.13
+covid_topic_illuminating | count=26034, mean=0.01, min=0.0, max=1.0
+covid_topic_illuminating | std_dev=0.09
+economy_topic_illuminating | count=26034, mean=0.16, min=0.0, max=1.0
+economy_topic_illuminating | std_dev=0.37
+education_topic_illuminating | count=26034, mean=0.02, min=0.0, max=1.0
+education_topic_illuminating | std_dev=0.13
+environment_topic_illuminating | count=26034, mean=0.03, min=0.0, max=1.0
+environment_topic_illuminating | std_dev=0.17
+foreign_policy_topic_illuminating | count=26034, mean=0.04, min=0.0, max=1.0
+foreign_policy_topic_illuminating | std_dev=0.2
+governance_topic_illuminating | count=26034, mean=0.02, min=0.0, max=1.0
+governance_topic_illuminating | std_dev=0.15
+health_topic_illuminating | count=26034, mean=0.06, min=0.0, max=1.0
+health_topic_illuminating | std_dev=0.23
+immigration_topic_illuminating | count=26034, mean=0.07, min=0.0, max=1.0
+immigration_topic_illuminating | std_dev=0.25
+lgbtq_issues_topic_illuminating | count=26034, mean=0.0, min=0.0, max=1.0
+lgbtq_issues_topic_illuminating | std_dev=0.06
+military_topic_illuminating | count=26034, mean=0.01, min=0.0, max=1.0
+military_topic_illuminating | std_dev=0.1
+race_and_ethnicity_topic_illuminating | count=26034, mean=0.02, min=0.0, max=1.0
+race_and_ethnicity_topic_illuminating | std_dev=0.12
+safety_topic_illuminating | count=26034, mean=0.04, min=0.0, max=1.0
+safety_topic_illuminating | std_dev=0.19
+social_and_cultural_topic_illuminating | count=26034, mean=0.05, min=0.0, max=1.0
+social_and_cultural_topic_illuminating | std_dev=0.22
+technology_and_privacy_topic_illuminating | count=26034, mean=0.0, min=0.0, max=1.0
+technology_and_privacy_topic_illuminating | std_dev=0.05
+womens_issue_topic_illuminating | count=26034, mean=0.02, min=0.0, max=1.0
+womens_issue_topic_illuminating | std_dev=0.15
+incivility_illuminating | count=26034, mean=0.18, min=0.0, max=1.0
+incivility_illuminating | std_dev=0.38
+scam_illuminating | count=26034, mean=0.01, min=0.0, max=1.0
+scam_illuminating | std_dev=0.11
+freefair_illuminating | count=27304, mean=0.0, min=0.0, max=1.0
+freefair_illuminating | std_dev=0.04
+fraud_illuminating | count=27304, mean=0.0, min=0.0, max=1.0
+fraud_illuminating | std_dev=0.05
+Column 'account_type' not found — skipping.
+
+Missing 'account_id' or 'post_id' — skipping group.
